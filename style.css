@@ -4,13 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.hero {
+    background-color: #1f2937;
+}
 
 .header {
-    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 32px;
+    padding: 0 100px;
 }
 
 .header .logo img {
@@ -34,4 +36,46 @@
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin-top: 75px; 
+}
+
+.body .right img {
+    width: 500px;
+    height: 200px;
+}
+
+.body .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 8px;
+}
+
+.body .sign-up {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    margin-top: 16px;
+    border: 0;
+    padding: 8px;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.body .left, .body .right img{
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+.body .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 000;
 }
