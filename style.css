@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 .hero {
     background-color: #1f2937;
 }
@@ -53,6 +48,7 @@ html, body {
 }
 
 .body .right img {
+    max-width: 100%;
     width: 500px;
     height: 300px;
 }
@@ -153,7 +149,7 @@ html, body {
 .call-to-action {
     background-color: #3882F6;
     color: #F9FAF8;
-    width: 900px;
+    max-width: 900px;
     margin: 48px auto;
     border-radius: 8px;
     padding: 32px;
