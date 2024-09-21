@@ -89,7 +89,7 @@ html, body {
 
 .cat-pics .title {
     text-align: center;
-    margin: 32px 0;
+    margin: 48px 0;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -100,6 +100,8 @@ html, body {
     height: 200px;
     border: #3882F6 solid;
     border-radius: 8px;
+    flex-shrink: 0;
+    margin-bottom: 8px;
 }
 
 .pics {
@@ -107,4 +109,17 @@ html, body {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    text-align: center;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic p {
+    color: rgb(91, 88, 88);
+    margin-bottom: 48px;
 }
