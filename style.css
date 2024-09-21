@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .hero {
     background-color: #1f2937;
 }
@@ -18,8 +24,7 @@
 .header .logo img {
     height: 100px;
     width: 100px;
-    border-radius: 50%;
-    flex-shrink: 0;
+    border-radius: 8px;
     margin: 24px 0;   
 }
 
@@ -80,4 +85,26 @@
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 000;
+}
+
+.cat-pics .title {
+    text-align: center;
+    margin: 32px 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.pics img {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 solid;
+    border-radius: 8px;
+}
+
+.pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
